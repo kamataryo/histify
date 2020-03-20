@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.7.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.5"
+  },
+  "author": "kamataryo <mugil.cephalus@gmail.com>",
+  "name": "histify",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "bin": "dist/cli.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc && chmod +x ./dist/cli.js",
+    "test": "jest"
+  },
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "meow": "^6.1.0",
+    "term-size": "^2.2.0"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  }
+}
