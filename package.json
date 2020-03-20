@@ -9,7 +9,7 @@
   },
   "author": "kamataryo <mugil.cephalus@gmail.com>",
   "name": "histify",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "bin": "dist/cli.js",
   "license": "MIT",
